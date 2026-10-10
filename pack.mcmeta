@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Replaces spiders and cave spiders with snakes. Requires EMF or OptiFine CEM.",
+    "min_format": [97, 1],
+    "max_format": [97, 1]
+  }
+}

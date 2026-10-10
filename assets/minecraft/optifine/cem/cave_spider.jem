@@ -1,0 +1,50 @@
+{
+  "texture": "textures/entity/spider/cave_spider.png",
+  "textureSize": [64, 32],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, 15, -3],
+      "boxes": [
+        {
+          "textureOffset": [0, 0],
+          "coordinates": [-3, -2, -8, 6, 4, 6]
+        }
+      ]
+    },
+    {
+      "part": "neck",
+      "id": "neck",
+      "invertAxis": "xy",
+      "translate": [0, 15, 0],
+      "boxes": [
+        {
+          "textureOffset": [24, 0],
+          "coordinates": [-2, -1.5, -3, 4, 3, 6]
+        }
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, 15, 9],
+      "boxes": [
+        {
+          "textureOffset": [0, 16],
+          "coordinates": [-2, -1.5, -6, 4, 3, 16]
+        }
+      ]
+    },
+    { "part": "leg1", "id": "leg1", "invertAxis": "xy", "scale": 0, "boxes": [] },
+    { "part": "leg2", "id": "leg2", "invertAxis": "xy", "scale": 0, "boxes": [] },
+    { "part": "leg3", "id": "leg3", "invertAxis": "xy", "scale": 0, "boxes": [] },
+    { "part": "leg4", "id": "leg4", "invertAxis": "xy", "scale": 0, "boxes": [] },
+    { "part": "leg5", "id": "leg5", "invertAxis": "xy", "scale": 0, "boxes": [] },
+    { "part": "leg6", "id": "leg6", "invertAxis": "xy", "scale": 0, "boxes": [] },
+    { "part": "leg7", "id": "leg7", "invertAxis": "xy", "scale": 0, "boxes": [] },
+    { "part": "leg8", "id": "leg8", "invertAxis": "xy", "scale": 0, "boxes": [] }
+  ]
+}
