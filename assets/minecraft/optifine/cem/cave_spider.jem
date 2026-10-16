@@ -1,6 +1,8 @@
 {
   "texture": "textures/entity/spider/cave_spider.png",
   "textureSize": [64, 32],
+  "shadowSize": 0.15,
+  "shadow_size": 0.15,
   "models": [
     {
       "part": "head",
@@ -20,7 +22,7 @@
       "part": "body",
       "id": "body",
       "invertAxis": "xy",
-      "translate": [0, 0, 0],
+      "translate": [-1, 0, -6],
       "boxes": [
         {
           "textureOffset": [24, 0],
@@ -67,7 +69,8 @@
       "animations": [
         {
           "this:snake_head.rx": "head.rx",
-          "this:snake_head.ry": "head.ry"
+          "this:snake_head.ry": "head.ry",
+          "render.shadow_size": "0.15"
         }
       ]
     },
