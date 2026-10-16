@@ -30,15 +30,15 @@
         },
         {
           "textureOffset": [0, 16],
-          "coordinates": [0, -2, -2, 4, 4, 4]
+          "coordinates": [1, -2, -2, 4, 4, 4]
         },
         {
           "textureOffset": [0, 16],
-          "coordinates": [2, -2, 2, 4, 4, 4]
+          "coordinates": [5, -2, 2, 4, 4, 4]
         },
         {
           "textureOffset": [0, 16],
-          "coordinates": [0, -2, 6, 4, 4, 4]
+          "coordinates": [2, -2, 6, 4, 4, 4]
         },
         {
           "textureOffset": [0, 16],
@@ -46,7 +46,11 @@
         },
         {
           "textureOffset": [0, 16],
-          "coordinates": [-3, -2, 14, 4, 4, 4]
+          "coordinates": [-6, -2, 14, 4, 4, 4]
+        },
+        {
+          "textureOffset": [0, 16],
+          "coordinates": [-3, -2, 18, 4, 4, 4]
         }
       ],
       "submodels": [
