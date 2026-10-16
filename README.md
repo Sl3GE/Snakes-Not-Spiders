@@ -1,6 +1,6 @@
 # Snakes Not Spiders
 
-A Minecraft Java Edition resource pack that replaces **spiders** and **cave spiders** with snakes. Nothing else is overridden.
+A Minecraft Java Edition resource pack that replaces **spiders** and **cave spiders** with snakes, including their spawn eggs, eyes, names, and entity models.
 
 **Target version:** Java Edition 26.3 (resource pack format 97.1)
 
@@ -23,3 +23,8 @@ Placeholder textures are stubs. Real snake art will replace them later; file pat
 | `assets/minecraft/textures/entity/spider_eyes.png` | Transparent (hides vanilla glowing eyes) |
 | `assets/minecraft/optifine/cem/spider.jem` | Custom snake model |
 | `assets/minecraft/optifine/cem/cave_spider.jem` | Same mesh, smaller scale |
+| `assets/minecraft/lang/en_us.json` | Snake names for mobs and items |
+| `assets/minecraft/textures/item/spider_spawn_egg.png` | Snake spawn egg |
+| `assets/minecraft/textures/item/cave_spider_spawn_egg.png` | Cave snake spawn egg |
+| `assets/minecraft/textures/item/spider_eye.png` | Snake eye |
+| `assets/minecraft/textures/item/fermented_spider_eye.png` | Fermented snake eye |

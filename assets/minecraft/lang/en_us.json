@@ -1,0 +1,11 @@
+{
+  "entity.minecraft.spider": "Snake",
+  "entity.minecraft.cave_spider": "Cave Snake",
+  "item.minecraft.spider_spawn_egg": "Snake Spawn Egg",
+  "item.minecraft.cave_spider_spawn_egg": "Cave Snake Spawn Egg",
+  "item.minecraft.spider_eye": "Snake Eye",
+  "item.minecraft.fermented_spider_eye": "Fermented Snake Eye",
+  "subtitles.entity.spider.ambient": "Snake hisses",
+  "subtitles.entity.spider.death": "Snake dies",
+  "subtitles.entity.spider.hurt": "Snake hurts"
+}
