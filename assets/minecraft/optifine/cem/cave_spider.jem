@@ -36,6 +36,14 @@
             {
               "textureOffset": [0, 0],
               "coordinates": [-3, -2, -6, 6, 4, 6]
+            },
+            {
+              "textureOffset": [56, 0],
+              "coordinates": [-3, 0, -7, 1, 1, 1]
+            },
+            {
+              "textureOffset": [56, 0],
+              "coordinates": [2, 0, -7, 1, 1, 1]
             }
           ]
         },
