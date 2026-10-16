@@ -6,35 +6,68 @@
       "part": "head",
       "id": "head",
       "invertAxis": "xy",
-      "translate": [0, 2, -3],
-      "boxes": [
-        {
-          "textureOffset": [0, 0],
-          "coordinates": [-3, -2, -8, 6, 4, 6]
-        }
-      ]
+      "scale": 0,
+      "boxes": []
     },
     {
       "part": "neck",
       "id": "neck",
       "invertAxis": "xy",
-      "translate": [0, 1.5, 0],
-      "boxes": [
-        {
-          "textureOffset": [24, 0],
-          "coordinates": [-2, -1.5, -3, 4, 3, 6]
-        }
-      ]
+      "scale": 0,
+      "boxes": []
     },
     {
       "part": "body",
       "id": "body",
       "invertAxis": "xy",
-      "translate": [0, 1.5, 9],
+      "translate": [0, 2, 0],
       "boxes": [
         {
+          "textureOffset": [24, 0],
+          "coordinates": [-2, -2, -8, 4, 4, 6]
+        },
+        {
           "textureOffset": [0, 16],
-          "coordinates": [-2, -1.5, -6, 4, 3, 16]
+          "coordinates": [0, -2, -2, 4, 4, 4]
+        },
+        {
+          "textureOffset": [0, 16],
+          "coordinates": [2, -2, 2, 4, 4, 4]
+        },
+        {
+          "textureOffset": [0, 16],
+          "coordinates": [0, -2, 6, 4, 4, 4]
+        },
+        {
+          "textureOffset": [0, 16],
+          "coordinates": [-2, -2, 10, 4, 4, 4]
+        },
+        {
+          "textureOffset": [0, 16],
+          "coordinates": [-3, -2, 14, 4, 4, 4]
+        }
+      ],
+      "submodels": [
+        {
+          "id": "snake_head",
+          "invertAxis": "xy",
+          "translate": [0, 0, -6],
+          "boxes": [
+            {
+              "textureOffset": [40, 0],
+              "coordinates": [-2, -1, -8, 4, 3, 2]
+            },
+            {
+              "textureOffset": [0, 0],
+              "coordinates": [-3, -2, -6, 6, 4, 6]
+            }
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "this:snake_head.rx": "head.rx",
+          "this:snake_head.ry": "head.ry"
         }
       ]
     },
