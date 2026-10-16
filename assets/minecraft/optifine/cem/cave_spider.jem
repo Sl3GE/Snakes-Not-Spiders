@@ -22,7 +22,7 @@
       "part": "body",
       "id": "body",
       "invertAxis": "xy",
-      "translate": [-1, 0, -6],
+      "translate": [-1, -7, -6],
       "boxes": [
         {
           "textureOffset": [24, 0],
