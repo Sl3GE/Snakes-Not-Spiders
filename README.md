@@ -4,7 +4,22 @@ A Minecraft Java Edition resource pack that replaces **spiders** and **cave spid
 
 **Target version:** Java Edition 26.3 (resource pack format 97.1)
 
-Custom snake models require [Entity Model Features](https://modrinth.com/mod/entity-model-features) (Fabric, Quilt, Forge, or NeoForge) **or** OptiFine with Custom Entity Models enabled. Without that, only the textures apply and spiders stay on the vanilla 8-legged mesh. Hitboxes are unchanged either way.
+Custom snake models need one of the dependency sets below. Without that, only the textures apply and spiders stay on the vanilla 8-legged mesh. Hitboxes are unchanged either way.
+
+## Dependencies
+
+Required:
+
+- Minecraft Java Edition 26.3
+
+Snake models, pick one set. Do not install both.
+
+- [Entity Model Features](https://modrinth.com/mod/entity-model-features) for 26.3 (Fabric, Quilt, Forge, or NeoForge)
+  - [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) for the same version and loader (required by EMF)
+  - [Fabric API](https://modrinth.com/mod/fabric-api) when using Fabric
+- Or [OptiFine](https://optifine.net/downloads) with Custom Entity Models enabled
+
+EMF does not work alongside OptiFine or OptiFabric.
 
 Placeholder textures are stubs. Real snake art will replace them later; file paths stay the same.
 
