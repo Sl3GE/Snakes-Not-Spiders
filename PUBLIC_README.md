@@ -1,6 +1,6 @@
 # Snakes Not Spiders
 
-A resource pack for people who would rather not see spiders. Spiders and cave spiders are replaced with blocky snakes. Nothing else in the game is changed.
+A resource pack for players with arachnophobia. Spiders and cave spiders are replaced with blocky snakes. Nothing else in the game is changed.
 
 **Minecraft:** Java Edition 26.3
 

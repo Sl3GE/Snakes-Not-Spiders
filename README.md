@@ -1,6 +1,6 @@
 # Snakes Not Spiders
 
-A Minecraft Java Edition resource pack that replaces **spiders** and **cave spiders** with snakes, including their spawn eggs, eyes, names, and entity models.
+A Minecraft Java Edition resource pack for players with arachnophobia. It replaces **spiders** and **cave spiders** with snakes, including their spawn eggs, eyes, names, and entity models.
 
 **Target version:** Java Edition 26.3 (resource pack format 97.1)
 
