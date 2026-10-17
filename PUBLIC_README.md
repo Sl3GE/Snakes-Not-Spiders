@@ -2,7 +2,7 @@
 
 A resource pack for players with arachnophobia. Spiders and cave spiders are replaced with blocky snakes. Nothing else in the game is changed.
 
-**Minecraft:** Java Edition 26.3
+**Minecraft:** Java Edition 1.20.1 through 26.3
 
 ## What changes
 
@@ -20,11 +20,11 @@ Install **one** of these. Do not install both.
 
 **Entity Model Features** (recommended)
 
-- [Entity Model Features](https://modrinth.com/mod/entity-model-features) for 26.3
+- [Entity Model Features](https://modrinth.com/mod/entity-model-features)
 - [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) for the same version (required)
 - [Fabric API](https://modrinth.com/mod/fabric-api), if you are using Fabric
 
-Works on Fabric, Quilt, Forge, and NeoForge. Pick the files that match your loader and 26.3.
+Works on Fabric, Quilt, Forge, and NeoForge. Pick the files that match your loader and your Minecraft version (1.20.1 through 26.3).
 
 **Or OptiFine**
 

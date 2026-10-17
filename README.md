@@ -2,7 +2,7 @@
 
 A Minecraft Java Edition resource pack for players with arachnophobia. It replaces **spiders** and **cave spiders** with snakes, including their spawn eggs, eyes, names, and entity models.
 
-**Target version:** Java Edition 26.3 (resource pack format 97.1)
+**Target versions:** Java Edition 1.20.1 through 26.3 (resource pack formats 15 through 97, including 97.1)
 
 Custom snake models need one of the dependency sets below. Without that, only the textures apply and spiders stay on the vanilla 8-legged mesh. Hitboxes are unchanged either way.
 
@@ -10,11 +10,11 @@ Custom snake models need one of the dependency sets below. Without that, only th
 
 Required:
 
-- Minecraft Java Edition 26.3
+- Minecraft Java Edition 1.20.1 through 26.3
 
-Snake models, pick one set. Do not install both.
+Snake models, pick one set. Do not install both. The build must match the Minecraft version you are playing.
 
-- [Entity Model Features](https://modrinth.com/mod/entity-model-features) for 26.3 (Fabric, Quilt, Forge, or NeoForge)
+- [Entity Model Features](https://modrinth.com/mod/entity-model-features) (Fabric, Quilt, Forge, or NeoForge)
   - [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) for the same version and loader (required by EMF)
   - [Fabric API](https://modrinth.com/mod/fabric-api) when using Fabric
 - Or [OptiFine](https://optifine.net/downloads) with Custom Entity Models enabled
