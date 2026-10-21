@@ -21,8 +21,6 @@ Snake models, pick one set. Do not install both. The build must match the Minecr
 
 EMF does not work alongside OptiFine or OptiFabric.
 
-Placeholder textures are stubs. Real snake art will replace them later; file paths stay the same.
-
 ## Install
 
 1. Install EMF **or** OptiFine (CEM on).
@@ -33,8 +31,8 @@ Placeholder textures are stubs. Real snake art will replace them later; file pat
 
 | File | Role |
 | --- | --- |
-| `assets/minecraft/textures/entity/spider/spider.png` | Snake stub for spiders |
-| `assets/minecraft/textures/entity/spider/cave_spider.png` | Snake stub for cave spiders |
+| `assets/minecraft/textures/entity/spider/spider.png` | Snake texture for spiders |
+| `assets/minecraft/textures/entity/spider/cave_spider.png` | Snake texture for cave spiders |
 | `assets/minecraft/textures/entity/spider_eyes.png` | Transparent (hides vanilla glowing eyes) |
 | `assets/minecraft/optifine/cem/spider.jem` | Custom snake model |
 | `assets/minecraft/optifine/cem/cave_spider.jem` | Same mesh, smaller scale |
