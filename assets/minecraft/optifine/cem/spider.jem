@@ -1,153 +1,156 @@
 {
-  "texture": "textures/entity/spider/spider.png",
-  "textureSize": [64, 32],
-  "shadowSize": 0.2,
-  "shadow_size": 0.2,
-  "models": [
-    {
-      "part": "head",
-      "id": "head",
-      "invertAxis": "xy",
-      "scale": 0,
-      "boxes": []
-    },
-    {
-      "part": "neck",
-      "id": "neck",
-      "invertAxis": "xy",
-      "scale": 0,
-      "boxes": []
-    },
-    {
-      "part": "body",
-      "id": "body",
-      "invertAxis": "xy",
-      "translate": [-1, -7, -6],
-      "submodels": [
-        {
-          "id": "snake_head",
-          "invertAxis": "xy",
-          "translate": [0, 0, -6],
-          "boxes": [
-            {
-              "textureOffset": [40, 0],
-              "coordinates": [-2, -1, -8, 4, 3, 2]
-            },
-            {
-              "textureOffset": [0, 0],
-              "coordinates": [-3, -2, -6, 6, 4, 6]
-            },
-            {
-              "textureOffset": [56, 0],
-              "coordinates": [-3, 0, -7, 1, 1, 1]
-            },
-            {
-              "textureOffset": [56, 0],
-              "coordinates": [2, 0, -7, 1, 1, 1]
-            }
-          ]
-        },
-        {
-          "id": "seg0",
-          "invertAxis": "xy",
-          "translate": [-2, 0, -8],
-          "boxes": [
-            {
-              "textureOffset": [24, 0],
-              "coordinates": [0, -2, 0, 4, 4, 6]
-            }
-          ]
-        },
-        {
-          "id": "seg1",
-          "invertAxis": "xy",
-          "translate": [1, 0, -2],
-          "boxes": [
-            {
-              "textureOffset": [0, 16],
-              "coordinates": [0, -2, 0, 4, 4, 4]
-            }
-          ]
-        },
-        {
-          "id": "seg2",
-          "invertAxis": "xy",
-          "translate": [5, 0, 2],
-          "boxes": [
-            {
-              "textureOffset": [0, 16],
-              "coordinates": [0, -2, 0, 4, 4, 4]
-            }
-          ]
-        },
-        {
-          "id": "seg3",
-          "invertAxis": "xy",
-          "translate": [2, 0, 6],
-          "boxes": [
-            {
-              "textureOffset": [0, 16],
-              "coordinates": [0, -2, 0, 4, 4, 4]
-            }
-          ]
-        },
-        {
-          "id": "seg4",
-          "invertAxis": "xy",
-          "translate": [-2, 0, 10],
-          "boxes": [
-            {
-              "textureOffset": [0, 16],
-              "coordinates": [0, -2, 0, 4, 4, 4]
-            }
-          ]
-        },
-        {
-          "id": "seg5",
-          "invertAxis": "xy",
-          "translate": [-6, 0, 14],
-          "boxes": [
-            {
-              "textureOffset": [0, 16],
-              "coordinates": [0, -2, 0, 4, 4, 4]
-            }
-          ]
-        },
-        {
-          "id": "seg6",
-          "invertAxis": "xy",
-          "translate": [-3, 0, 18],
-          "boxes": [
-            {
-              "textureOffset": [0, 16],
-              "coordinates": [0, -2, 0, 4, 4, 4]
-            }
-          ]
-        }
-      ],
-      "animations": [
-        {
-          "this:snake_head.rx": "head.rx",
-          "this:snake_head.ry": "head.ry",
-          "this:snake_head.tx": "sin(limb_swing * 0.7 - 0.6) * limb_speed * 1.2",
-          "this:seg0.tx": "sin(limb_swing * 0.7) * limb_speed * 2",
-          "this:seg1.tx": "sin(limb_swing * 0.7 + 0.9) * limb_speed * 3",
-          "this:seg2.tx": "sin(limb_swing * 0.7 + 1.8) * limb_speed * 3.5",
-          "this:seg3.tx": "sin(limb_swing * 0.7 + 2.7) * limb_speed * 3.5",
-          "this:seg4.tx": "sin(limb_swing * 0.7 + 3.6) * limb_speed * 3",
-          "this:seg5.tx": "sin(limb_swing * 0.7 + 4.5) * limb_speed * 2.8",
-          "this:seg6.tx": "sin(limb_swing * 0.7 + 5.4) * limb_speed * 2.4",
-          "render.shadow_size": "0.2"
-        }
-      ]
-    },
-    { "part": "leg1", "id": "leg1", "invertAxis": "xy", "scale": 0, "boxes": [] },
-    { "part": "leg2", "id": "leg2", "invertAxis": "xy", "scale": 0, "boxes": [] },
-    { "part": "leg3", "id": "leg3", "invertAxis": "xy", "scale": 0, "boxes": [] },
-    { "part": "leg4", "id": "leg4", "invertAxis": "xy", "scale": 0, "boxes": [] },
-    { "part": "leg5", "id": "leg5", "invertAxis": "xy", "scale": 0, "boxes": [] },
-    { "part": "leg6", "id": "leg6", "invertAxis": "xy", "scale": 0, "boxes": [] },
-    { "part": "leg7", "id": "leg7", "invertAxis": "xy", "scale": 0, "boxes": [] },
-    { "part": "leg8", "id": "leg8", "invertAxis": "xy", "scale": 0, "boxes": [] }
-  ]
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"texture": "textures/entity/spider/spider.png",
+	"shadowSize": 0.2,
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "neck",
+			"id": "neck",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [-1, -7, -6],
+			"submodels": [
+				{
+					"id": "snake_head",
+					"invertAxis": "xy",
+					"translate": [0, 0, -6],
+					"boxes": [
+						{"coordinates": [-3, -2, -7, 6, 4, 6], "textureOffset": [0, 0]}
+					]
+				},
+				{
+					"id": "seg0",
+					"invertAxis": "xy",
+					"translate": [-2, 0, -8],
+					"boxes": [
+						{"coordinates": [0, -2, 1, 4, 4, 5], "textureOffset": [25, 1]}
+					]
+				},
+				{
+					"id": "seg1",
+					"invertAxis": "xy",
+					"translate": [1, 0, -2],
+					"boxes": [
+						{"coordinates": [-1, -2, 0, 4, 4, 4], "textureOffset": [0, 16]}
+					]
+				},
+				{
+					"id": "seg2",
+					"invertAxis": "xy",
+					"translate": [5, 0, 2],
+					"boxes": [
+						{"coordinates": [-3, -2, 0, 4, 4, 4], "textureOffset": [0, 16]}
+					]
+				},
+				{
+					"id": "seg3",
+					"invertAxis": "xy",
+					"translate": [2, 0, 6],
+					"boxes": [
+						{"coordinates": [-2, -2, 0, 4, 4, 4], "textureOffset": [0, 16]}
+					]
+				},
+				{
+					"id": "seg4",
+					"invertAxis": "xy",
+					"translate": [-2, 0, 10],
+					"boxes": [
+						{"coordinates": [0, -2, 0, 4, 4, 4], "textureOffset": [0, 16]},
+						{"coordinates": [0, -2, 0, 4, 4, 4], "textureOffset": [0, 16]}
+					]
+				},
+				{
+					"id": "seg5",
+					"invertAxis": "xy",
+					"translate": [-6, 0, 14],
+					"boxes": [
+						{"coordinates": [2, -2, 0, 4, 4, 4], "textureOffset": [0, 16]}
+					]
+				},
+				{
+					"id": "seg6",
+					"invertAxis": "xy",
+					"translate": [-3, 0, 18],
+					"boxes": [
+						{"coordinates": [1, -2, 0, 4, 4, 4], "textureOffset": [0, 16]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"snake_head.rx": "head.rx",
+					"snake_head.ry": "head.ry",
+					"snake_head.tx": "sin(limb_swing - 0.6) * limb_speed * 1.2",
+					"seg0.tx": "sin(limb_swing) * limb_speed * 2",
+					"seg1.tx": "sin(limb_swing + 0.9) * limb_speed * 3",
+					"seg2.tx": "sin(limb_swing + 1.8) * limb_speed * 3.5",
+					"seg3.tx": "sin(limb_swing + 2.7) * limb_speed * 3.5",
+					"seg4.tx": "sin(limb_swing + 3.6) * limb_speed * 3",
+					"seg5.tx": "sin(limb_swing + 4.5) * limb_speed * 2.8",
+					"seg6.tx": "sin(limb_swing + 5.4) * limb_speed * 2.4",
+					"render.shadow_size": "0.2"
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg5",
+			"id": "leg5",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg6",
+			"id": "leg6",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg7",
+			"id": "leg7",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg8",
+			"id": "leg8",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
 }
