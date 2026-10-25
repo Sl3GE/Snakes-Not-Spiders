@@ -41,3 +41,11 @@ EMF does not work alongside OptiFine or OptiFabric.
 | `assets/minecraft/textures/item/cave_spider_spawn_egg.png` | Cave snake spawn egg |
 | `assets/minecraft/textures/item/spider_eye.png` | Snake eye |
 | `assets/minecraft/textures/item/fermented_spider_eye.png` | Fermented snake eye |
+
+## Releases
+
+From the repo root, write a new zip into `dist/`. Leave older zips in that folder as they are. Replace `1.1.0` with the version you are cutting.
+
+```bash
+zip -r dist/snakes-not-spiders-1.1.0.zip pack.mcmeta pack.png assets LICENSE PUBLIC_README.md -x '*.DS_Store'
+```
